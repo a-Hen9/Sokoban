@@ -1,0 +1,5 @@
+{
+  "name": "Sokoban Master",
+  "description": "A modern reimplementation of the classic Sokoban puzzle game. Features carefully curated levels across multiple difficulty tiers, undo functionality, and a clean responsive interface.",
+  "requestFramePermissions": []
+}
