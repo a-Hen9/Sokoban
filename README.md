@@ -34,11 +34,7 @@ Sokoban Master 是经典益智游戏“推箱子”的现代化重制版。项�
 
 1.  **克隆项目**
     ```bash
-<<<<<<< HEAD
     git clone https://github.com/a-Hen9/Sokoban.git
-=======
-    git clone <repository-url>
->>>>>>> 1765b452e88d2f83ddfe94a31bd20c98fccdfa74
     cd sokoban-master
     ```
 
