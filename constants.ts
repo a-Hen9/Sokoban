@@ -4,6 +4,7 @@ import { LevelConfig, AIDifficulty } from './types';
 export const LEVEL_SETS: Record<AIDifficulty, LevelConfig[]> = {
   [AIDifficulty.Easy]: [
     {
+<<<<<<< HEAD
       description: "1-1",
       map: [
         "######",
@@ -13,16 +14,35 @@ export const LEVEL_SETS: Record<AIDifficulty, LevelConfig[]> = {
     },
     {
       description: "1-2",
+=======
+      description: "First Steps",
+      map: [
+        "#####",
+        "#@$.#",
+        "#####"
+      ]
+    },
+    {
+      description: "Simple Push",
+>>>>>>> 1765b452e88d2f83ddfe94a31bd20c98fccdfa74
       map: [
         "  #####",
         "###   #",
         "#.@$  #",
+<<<<<<< HEAD
         "###   #",
+=======
+        "###  .#",
+>>>>>>> 1765b452e88d2f83ddfe94a31bd20c98fccdfa74
         "  #####"
       ]
     },
     {
+<<<<<<< HEAD
       description: "1-3",
+=======
+      description: "The Corridor",
+>>>>>>> 1765b452e88d2f83ddfe94a31bd20c98fccdfa74
       map: [
         "#####",
         "#@  #",
@@ -31,6 +51,7 @@ export const LEVEL_SETS: Record<AIDifficulty, LevelConfig[]> = {
         "# ..#",
         "#####"
       ]
+<<<<<<< HEAD
     },
     {
       description: "1-4",
@@ -98,6 +119,13 @@ export const LEVEL_SETS: Record<AIDifficulty, LevelConfig[]> = {
   [AIDifficulty.Hard]: [
     {
       description: "3-1",
+=======
+    }
+  ],
+  [AIDifficulty.Medium]: [
+    {
+      description: "Classic 1",
+>>>>>>> 1765b452e88d2f83ddfe94a31bd20c98fccdfa74
       map: [
         "  ##### ",
         "###   # ",
@@ -111,6 +139,7 @@ export const LEVEL_SETS: Record<AIDifficulty, LevelConfig[]> = {
       ]
     },
     {
+<<<<<<< HEAD
       description: "3-2",
       map: [
         "  ####   ",
@@ -157,6 +186,69 @@ export const LEVEL_SETS: Record<AIDifficulty, LevelConfig[]> = {
         "#######",
       ]
     },
+=======
+      description: "Boxy",
+      map: [
+        "  ####  ",
+        "  #  #  ",
+        "  #$ #  ",
+        "###  ###",
+        "# .  . #",
+        "#  $@  #",
+        "#  $$  #",
+        "########"
+      ]
+    },
+    {
+      description: "The T",
+      map: [
+        "#######",
+        "#  .  #",
+        "#  $  #",
+        "# .@. #",
+        "#  $  #",
+        "#  .  #",
+        "#######"
+      ]
+    }
+  ],
+  [AIDifficulty.Hard]: [
+     {
+        description: "Microban Style",
+        map: [
+            "####  ",
+            "# .#  ",
+            "#  ###",
+            "#*@  #",
+            "#  $ #",
+            "#  ###",
+            "####  "
+        ]
+     },
+     {
+        description: "Four Corners",
+        map: [
+            "#######",
+            "#     #",
+            "# .$. #",
+            "# $@$ #",
+            "# .$. #",
+            "#     #",
+            "#######"
+        ]
+     },
+     {
+        description: "Warehouse",
+        map: [
+            "  ####   ",
+            "###  ####",
+            "#     $ #",
+            "# #  #$ #",
+            "# . .#@ #",
+            "#########"
+        ]
+    }
+>>>>>>> 1765b452e88d2f83ddfe94a31bd20c98fccdfa74
   ]
 };
 
